@@ -1,0 +1,244 @@
+body{
+	color: white;
+	background-color: #61122f;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-navbar{
+	background-color:#FFD700;
+	border-radius: 0;
+	border: 0;
+}
+#logo{
+	background: url('../logo/ubuntu.png') ;
+
+	width:  200px;
+	height: 200px;
+	margin: 10px;
+
+}
+.navbar-brand h1{
+	text-transform: uppercase;
+	text-shadow: 2px;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: 'Lora', serif;
+}
+	.navbar-brand a:hover , a:focus{
+          text-decoration: none;
+          color: red;
+	}
+	.navbar-brand span{
+		text-transform: uppercase;
+		vertical-align: middle;
+
+	}
+	#phone{
+		margin-top: 5px;
+
+	}
+	#phone a{
+		text-align: right;
+		padding-bottom: 0;
+	}
+	#phone>div{
+		text-align: right;
+		padding-right: 20px;
+		color: red;
+	}
+	#nav-list{
+		margin-top: 10px;
+	}
+	#nav-list a{
+		color: #951C49;
+		text-align: center;
+	}
+	#collapsable-nav a:hover{
+		background-color: red;
+	}
+	.navbar-header button.navbar-toggle ,.navbar-header .icon-bar{
+		border: 1px solid red;
+		clear: both;
+
+	}
+	.container .jumbotron{
+		box-shadow: 0px 0px 50px black;
+		border: 2px solid black;
+	}
+@media(min-width: 1200px){
+         .container .jumbotron{
+		background: url('../logo/aji1200.jpg')no-repeat;
+		height: 522px;
+		
+	}
+	.navbar-brand h1{
+		font-size: 3vw;
+	}
+}
+@media(min-width:992px) and (max-width: 1199px){
+	#logo{
+			background: url('../logo/small.png') no-repeat;
+			height: 100px;
+			width: 100px;
+
+	}
+              .container .jumbotron{
+              	background: url('../logo/aj992.jpg')no-repeat;
+              	height: 432px;
+              }
+              .navbar-brand h1{
+		font-size: 5vw;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+              .container .jumbotron{
+              	background: url('../logo/aj768.jpg')no-repeat;
+              	height: 334px;
+              }
+              .navbar-brand{
+              	height: 120px;
+              }
+              .navbar-brand h1{
+              	font-size: 5vw;
+              }
+}
+@media(min-width:500px) and (max-width: 767px){
+	.navbar-brand{
+		height: 80px;
+		padding-top: 10px;
+	}
+	.navbar-brand h1{
+		font-size: 5vw;
+		padding-top: 10px
+	}
+	.panel-footer{
+		text-align: center;
+		padding: 10px;
+	}
+	.panel-footer section hr{
+		width: 50%;
+	}
+}
+@media(max-width: 499px){
+	.col-xxs-12{
+position: relative;
+min-width: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: left;
+width: 100%;
+}
+}
+#collapsable-nav a{
+	font-size: 1.2em;
+}
+#collapsable-nav a span{
+      font-size: 1em;
+      margin-right: 5px;
+}
+#main .jumbotron{
+
+	
+	padding: 0;
+	margin: 0;
+}
+
+#menu,#special,#map{
+	height: 250px;
+	width: 100%;
+	
+	
+	position: relative;
+	overflow: hidden;
+}
+
+#menu:hover , #special:hover , #map:hover{
+	box-shadow: 0px 0px 10px grey;
+}
+#box{
+	margin-top: 40px;
+}
+#menu{
+	background: url('../logo/menu.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#special{
+	background: url('../logo/pizza.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#map{
+	
+	
+	
+}
+#copyright{
+	text-align: center;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+#menu span ,#special span,#map span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: black;
+	opacity: .8;
+}
+.panel-footer{
+	background-color: #FFD700;
+	margin-top: 10px;
+	padding: 10px;
+}
+#address span,#hours span,#temp span{
+	text-transform: uppercase;
+	color: purple;
+	font-weight: bolder;
+
+}
+#address,#hours,#temp{
+	font-family: sans-serif;
+	color: black;
+	text-transform: capitalize;
+}
+ .category{
+	position: relative;
+	margin: 10px;
+	border: 2px solid black;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+.category span{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+
+	background-color: black;
+	opacity: .8;
+	text-transform: uppercase;
+}
+.category:hover{
+	box-shadow: 0px 1px 5px 1px grey;
+}
+.parrent{
+	position: relative;
+}
+ #itemno{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	width: 100%;
+}
